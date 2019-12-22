@@ -26,6 +26,7 @@ update notes:
 - Power pellets also are animated
 - There is score
 - Ghosts add 100 to score
+- Anti-Aliasing support
 - Removed Herobrine
 
 <br>
@@ -36,4 +37,15 @@ update notes:
 - Added structs
 - Removed legacy variables
 - Removed Herobrine
+
+<br>
+
+V.11
+update notes:
+- switched computers
+- changed images2.h to images.h
+- added Nodes
+- Fixed wall collision
+- Added Orange Ghost
+- Tempoaraly broke Red Ghost
 
