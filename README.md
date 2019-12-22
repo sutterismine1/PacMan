@@ -8,14 +8,14 @@
 Planned features:
 -
 - Actually good A.I
-- Start screen
+- Finish Start screen
+- Finish death screen
 - Pacman death animation
 - Ghosts don't instantly spawn bad at spawn
 - After ghost death make then back to kill mode
 - New game starts when all dots gone
 - Add cherry
 - Add high score
-- Add death screen
 - move code to functions (maybe create classes)
 - Add music, and sound effects
 - Remove Herobrine
@@ -26,6 +26,9 @@ V.15
 update notes:
 -
 - Add 3 lives
+- Added more assets
+- Started death screen
+- Started Start screen
 
 <br>
 
