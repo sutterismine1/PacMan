@@ -686,7 +686,7 @@ int main() {
 
     bool OrangeUpOnce = false,OrangeDownOnce = false, OrangeLeftOnce = false, OrangeRightOnce = false;
 
-
+    bool start_game = true;
 
 
     bool RedLeft = false;
@@ -760,6 +760,11 @@ int main() {
         return -1;
 
 
+    sf::Texture texture9;
+    if (!texture9.loadFromFile("Assets/PacMan-Start.png"))
+        return -1;
+
+
     sf::Font font;
     font.loadFromFile("assets/Arial.ttf");
 
@@ -776,6 +781,21 @@ int main() {
     scoreDis.setFillColor(sf::Color::White);
     scoreDis.setOrigin(15,15);
     scoreDis.setPosition(30,590);
+
+    sf::Text PreStart("Push Space To Start", font);
+    PreStart.setCharacterSize(30);
+    PreStart.setStyle(sf::Text::Bold);
+    PreStart.setFillColor(sf::Color::White);
+    PreStart.setOrigin(142,15);
+    PreStart.setPosition(522/2, 620/2);
+
+     sf::Text GameDone("GAME OVER", font);
+    GameDone.setCharacterSize(30);
+    GameDone.setStyle(sf::Text::Bold);
+    GameDone.setFillColor(sf::Color::Red);
+    GameDone.setOrigin(95,15);
+    GameDone.setPosition(1000, 1000);
+
 
 
     sf::Sprite PacMan;
@@ -819,6 +839,12 @@ int main() {
     BlueGhost.setPosition(sf::Vector2f(300, 266));
     BlueGhost.setOrigin(15,15);
     Close.Blue = 23;
+
+
+    sf::Sprite StartImage;
+    StartImage.setTexture(texture9);
+    StartImage.setPosition(sf::Vector2f(266, 150));
+    StartImage.setOrigin(225,51);
 
 
 
@@ -1092,11 +1118,28 @@ int main() {
             //   Up = false;
             //   Down = true;
 
-        } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)) {
+        }
+
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)) {
 
             x = 0;
             y = 0;
         }
+
+
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)&& start_game == true) {
+
+            start_game = false;
+
+            StartImage.setPosition(1000, 1000);
+            PreStart.setPosition(1000,1000);
+
+            cout<<"spaced out dude"<<endl;
+
+        }
+
+
+        //////////////////
 
         Left = false;
         Right = false;
@@ -1912,14 +1955,13 @@ int main() {
             PacLife[i].setPosition(temp,600);
         }
 
-        if(lives < 0) {
+        if(lives < 0 && start_game == false) {
 
             cout<<"GAME OVER"<<endl;
-
+            GameDone.setPosition(522/2, 322);
+            start_game = true;
 
         }
-
-
 
 
         PacMan.move(x,y);
@@ -1958,9 +2000,12 @@ int main() {
 
         }
 
-
         window.draw(scoreDis);
 
+
+        window.draw(StartImage);
+        window.draw(PreStart);
+    window.draw(GameDone);
 
         window.draw(PacMan);
         window.draw(OrangeGhost);
