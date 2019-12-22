@@ -28,3 +28,12 @@ update notes:
 - Ghosts add 100 to score
 - Removed Herobrine
 
+br>
+
+V.12
+update notes:
+- Red ghost now knows which node it is closest to
+- Added structs
+- Removed legacy variables
+- Removed Herobrine
+
