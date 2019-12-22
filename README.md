@@ -2,6 +2,20 @@
 
 <p>This is a really bad clone of pacman but eh... I'm trying</p>
 
+
+<br>
+
+Planned features:
+-
+- Actually good A.I
+- Start screen
+- Pacman death animation
+- Ghosts don't instantly spawn bad at spawn
+- After ghost death make then back to kill mode
+- New game starts when all dots gone
+- 
+
+
 <br>
 
 V.14
