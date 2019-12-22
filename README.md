@@ -28,7 +28,7 @@ update notes:
 - Ghosts add 100 to score
 - Removed Herobrine
 
-br>
+<br>
 
 V.12
 update notes:
