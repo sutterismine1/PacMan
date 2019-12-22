@@ -13,6 +13,10 @@ Planned features:
 - Ghosts don't instantly spawn bad at spawn
 - After ghost death make then back to kill mode
 - New game starts when all dots gone
+- Add cherry
+- Add high score
+- Add 3 lives
+- Add death screen
 - 
 
 
