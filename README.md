@@ -3,6 +3,7 @@
 This is a really bad clone of pacman but eh... I'm trying
 
 <br>
+
 V.14
 update notes:
 - Added Blue ghost
@@ -14,6 +15,7 @@ update notes:
 - Removed Herobrine
 
 <br>
+
 V.13
 update notes:
 - Ghosts now "kill" Pacman
