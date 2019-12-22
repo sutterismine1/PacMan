@@ -15,11 +15,17 @@ Planned features:
 - New game starts when all dots gone
 - Add cherry
 - Add high score
-- Add 3 lives
 - Add death screen
 - move code to functions (maybe create classes)
 - Add music, and sound effects
 - Remove Herobrine
+
+<br>
+
+V.15
+update notes:
+-
+- Add 3 lives
 
 <br>
 
