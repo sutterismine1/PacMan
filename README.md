@@ -61,4 +61,5 @@ update notes:
 V.10
 update notes:
 - 
-- 
+- Added dots
+- Added Red Ghost A.I
