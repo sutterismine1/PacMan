@@ -24,7 +24,7 @@ update notes:
 - There are power pellets
 - You can "win"
 - Power pellets also are animated
-- Ghosts add 100 to score
 - There is score
+- Ghosts add 100 to score
 - Removed Herobrine
 
