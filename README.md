@@ -34,8 +34,8 @@ update notes:
 <br>
 
 V.12
--
 update notes:
+-
 - Red ghost now knows which node it is closest to
 - Added structs
 - Removed legacy variables
