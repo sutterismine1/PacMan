@@ -63,3 +63,16 @@ update notes:
 - 
 - Added dots
 - Added Red Ghost A.I
+- Added Red Ghost
+
+<br>
+
+PRE-V.10
+update notes:
+- 
+- Added Pacman
+- Added Pacman wall collision
+- Added Pacman eating animation
+- Added Game Board
+- Made Images2.h
+- Made all assets in photoshop
