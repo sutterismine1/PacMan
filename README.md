@@ -56,6 +56,7 @@ update notes:
 - Tempoaraly broke Red Ghost movement
 - Attempted Path detection
 - Added visual representation of clossest node to Pacman
+- Removed Herobrine
 
 <br>
 
@@ -65,6 +66,7 @@ update notes:
 - Added dots
 - Added Red Ghost A.I
 - Added Red Ghost
+- Removed Herobrine
 
 <br>
 
@@ -75,5 +77,6 @@ update notes:
 - Added Pacman wall collision
 - Added Pacman eating animation
 - Added Game Board
+- Added Herobrine
 - Made Images2.h
 - Made all assets in photoshop
