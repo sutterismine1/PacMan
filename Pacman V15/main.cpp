@@ -1939,7 +1939,98 @@ int main() {
 
         if(dotsEaten == 183) {
 
+        dotsEaten = 0;
+
+            OrangeGhost.setPosition(sf::Vector2f(226, 266));
+            RedGhost.setPosition(sf::Vector2f(246, 266));
+            PinkGhost.setPosition(sf::Vector2f(266, 266));
+            BlueGhost.setPosition(sf::Vector2f(300, 266));
+
+            Close.Red = 23;
+            Close.Orange = 23;
+            Close.Blue = 23;
+            Close.Pink = 23;
+
+            PacMan.setPosition(sf::Vector2f(266, 326));
+            Left = false;
+            Right = false;
+            Up = false;
+            Down = false;
+            x = 0;
+            y = 0;
+            Close.Pac = 32;
+
+
+
             cout<<"you win!"<<endl;
+
+
+            PowerUp[0].setPosition(30,30);
+    PowerUp[2].setPosition(30,495);
+    PowerUp[1].setPosition(495,30);
+    PowerUp[3].setPosition(495,495);
+
+
+    tempx = 30;
+     tempy = 30;
+
+
+               for (int i = 0; i < Dot.size(); i++) {
+
+
+        if (image.getPixel(tempx, tempy) != wallcolor &&image.getPixel(tempx, tempy) != wallcolor2 ) {
+
+            Dot[i].setPosition(tempx,tempy);
+
+        }
+
+        tempx +=30;
+
+        if(tempx == 270) {
+            tempx = 263;
+        }
+
+        if(tempx == 383) {
+
+            tempx =375;
+        }
+
+
+        if(tempx > 500) {
+
+            tempy +=25;
+            tempx = 30;
+
+            if(tempy == 205) {
+                tempy = 215;
+            }
+
+            if(tempy == 315) {
+
+                tempy = 320;
+            }
+
+            if(tempy == 370) {
+
+                tempy = 375;
+            }
+            if(tempy == 425) {
+
+                tempy = 432;
+            }
+
+            if(tempy == 482) {
+
+                tempy = 490;
+            }
+
+            if(tempy == 540) {
+
+                tempy = 550;
+            }
+        }
+    }
+
 
         } else {
 
