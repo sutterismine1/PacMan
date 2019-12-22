@@ -6,6 +6,7 @@
 
 V.14
 update notes:
+-
 - Added Blue ghost
 - Added Pink ghost
 - All ghosts and Pacman teleport back to start when Pacman is killed
@@ -19,6 +20,7 @@ update notes:
 
 V.13
 update notes:
+-
 - Ghosts now "kill" Pacman
 - Pacman can eat ghosts
 - There are power pellets
@@ -32,6 +34,7 @@ update notes:
 <br>
 
 V.12
+-
 update notes:
 - Red ghost now knows which node it is closest to
 - Added structs
@@ -42,6 +45,7 @@ update notes:
 
 V.11
 update notes:
+-
 - switched computers
 - changed images2.h to images.h
 - added Nodes
