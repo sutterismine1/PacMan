@@ -3,6 +3,7 @@
 This is a really bad clone of pacman but eh... I'm trying
 
 V.14
+update notes:
 -Added Blue ghost
 -Added Pink ghost
 -Added hit collision for Pink ghost
