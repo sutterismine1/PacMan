@@ -13,7 +13,6 @@ Planned features:
 - Pacman death animation
 - Ghosts don't instantly spawn bad at spawn
 - After ghost death make then back to kill mode
-- New game starts when all dots gone
 - Add cherry
 - Add high score
 - move code to functions (maybe create classes)
@@ -29,6 +28,8 @@ update notes:
 - Added more assets
 - Started death screen
 - Started Start screen
+- New game starts when all dots gone
+- Removed Herobrine
 
 <br>
 
