@@ -1,3 +1,3 @@
 # PacMan
 
-this is a really bad clone of pacman but eh... it's fine
+This is a really bad clone of pacman but eh... I'm trying
