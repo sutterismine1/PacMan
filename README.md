@@ -45,7 +45,10 @@ update notes:
 - switched computers
 - changed images2.h to images.h
 - added Nodes
-- Fixed wall collision
+- Fixed PacMan wall collision
+- Fixed Ghost wall collision
 - Added Orange Ghost
-- Tempoaraly broke Red Ghost
+- Tempoaraly broke Red Ghost movement
+- Attempted Path detection
+- Added visual representation of clossest node to Pacman
 
