@@ -17,8 +17,9 @@ Planned features:
 - Add high score
 - Add 3 lives
 - Add death screen
-- 
-
+- move code to functions (maybe create classes)
+- Add music, and sound effects
+- Remove Herobrine
 
 <br>
 
