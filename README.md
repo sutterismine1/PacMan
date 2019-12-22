@@ -55,7 +55,7 @@ update notes:
 - Added Orange ghost A.I
 - Tempoaraly broke Red Ghost movement
 - Attempted Path detection
-- Added visual representation of clossest node to Pacman
+- Pacman now knows which node it is closest to
 - Removed Herobrine
 
 <br>
