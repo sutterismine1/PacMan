@@ -52,6 +52,7 @@ update notes:
 - Fixed PacMan wall collision
 - Fixed Ghost wall collision
 - Added Orange Ghost
+- Added Orange ghost A.I
 - Tempoaraly broke Red Ghost movement
 - Attempted Path detection
 - Added visual representation of clossest node to Pacman
