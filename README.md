@@ -24,8 +24,9 @@ V.16
 update notes:
 -
 - Kinda "Fixed" Fullscreen mode
-- continued work on end screen
+- continued work on end screen (program crahes itself)
 - After ghost death they go back to kill mode
+- Removed legacy code
 - Removed Herobrine
 
 <br>
@@ -76,7 +77,7 @@ update notes:
 -
 - Red ghost now knows which node it is closest to
 - Added structs
-- Removed legacy variables
+- Removed legacy code
 - Removed Herobrine
 
 <br>
