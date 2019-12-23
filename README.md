@@ -12,6 +12,7 @@ Planned features:
 - Add high score
 - move code to functions (maybe create classes)
 - Add music, and sound effects
+- Get Pink & Blue moving
 
 <br>
 
