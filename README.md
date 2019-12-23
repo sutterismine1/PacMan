@@ -21,6 +21,7 @@ update notes:
 - Ghosts flash before turning back into kill mode
 - More assets
 - Bug fixes
+- and yes I did remove Herobrine
 
 <br>
 
