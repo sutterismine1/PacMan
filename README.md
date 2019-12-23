@@ -7,14 +7,21 @@
 Planned features:
 -
 - Actually good A.I
-- Finish Start screen
-- Finish death screen
 - Pacman death animation
 - Ghosts don't instantly spawn bad at spawn
 - Add high score
 - move code to functions (maybe create classes)
 - Add music, and sound effects
-- Remove Herobrine
+
+<br>
+
+V.17
+update notes:
+-
+- Start screen
+- Death screen
+- can restart
+- God this is getting old but yes I did Remove Herobrine
 
 <br>
 
