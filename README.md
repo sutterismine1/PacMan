@@ -21,7 +21,10 @@ Planned features:
 V.17
 update notes:
 -
-- Add Framework for cherry
+- Added cherry, strawberry, peach, apple, lime, spear?, bell, key
+- "Berry's" now edible
+- "Berry's" add 200 score
+- A berry will spawn after 20 seconds every round
 - Bug fixes
 - This joke is getting old but I still: Removed Herobrine
 
