@@ -22,6 +22,7 @@ V.17
 update notes:
 -
 - Add Framework for cherry
+- Bug fixes
 - This joke is getting old but I still: Removed Herobrine
 
 <br>
