@@ -689,6 +689,8 @@ int main() {
 
     int lives = 2;
 
+    int Berrytimer = 0;
+
     int OrangeX = 0, Orangey = 0;
     int RedX = 0, RedY = 0;
 
@@ -733,19 +735,7 @@ int main() {
 
     int score = 0;
     int dotsEaten = 0;
-
-
-
-#define Cherry 0,0,13,13
-#define Strawberry 16,0,13,13
-#define Peach 32,0,13,13
-#define Apple 48,0,13,13
-#define Lime 65,0,13,13
-#define Spear 80,0,10,13
-#define Bell 96,0,12,13
-#define Key 114,0,7,13
-
-
+    int randtemp;
 
 
     sf::ContextSettings settings;
@@ -806,15 +796,30 @@ int main() {
         return -1;
 
 
-
+/////berry
     sf::Texture texture10;
     texture10.loadFromFile("Assets/Berry_Sprite_Sheet.png");
 
-    sf::IntRect rectSourceSprite(Cherry);
+
+#define Bry_Cherry 0,0,13,13
+#define Bry_Strawberry 16,0,13,13
+#define Bry_Peach 32,0,13,13
+#define Bry_Apple 48,0,13,13
+#define Bry_Lime 65,0,13,13
+#define Bry_Spear 80,0,11,13
+#define Bry_Bell 96,0,12,13
+#define Bry_Key 114,0,7,13
+
+
+    sf::IntRect rectSourceSprite(Bry_Cherry);
     sf::Sprite Berry(texture10,rectSourceSprite);
     Berry.setScale(2.f, 2.f);
+    Berry.setPosition(1000,1000);
 
-    Berry.setPosition(522/2,620/2);
+
+////////
+
+
 
     sf::Font font;
     font.loadFromFile("assets/Arial.ttf");
@@ -1707,6 +1712,14 @@ int main() {
             }
         }
 
+
+        if(PacMan.getGlobalBounds().intersects(Berry.getGlobalBounds())) {
+
+            Berry.setPosition(1000,1000);
+            score +=200;
+
+        }
+
         for (int i = 0; i < PowerUp.size(); i++) {
             if(PacMan.getGlobalBounds().intersects(PowerUp[i].getGlobalBounds())) {
 
@@ -2071,8 +2084,49 @@ int main() {
         paths(PacClose,Close,PacMan,Node,lineArr, RedGhost, OrangeGhost);
 
 
+        if(Berrytimer == 1200) {
 
-        //
+            Berrytimer++;
+
+            randtemp = rand()%7;
+
+            if(randtemp == 0)
+                Berry.setTextureRect(sf::IntRect(Bry_Cherry));
+
+            if(randtemp == 1)
+                Berry.setTextureRect(sf::IntRect(Bry_Strawberry));
+
+            if(randtemp == 2)
+                Berry.setTextureRect(sf::IntRect(Bry_Peach));
+
+            if(randtemp == 3)
+                Berry.setTextureRect(sf::IntRect(Bry_Apple));
+
+            if(randtemp == 4)
+                Berry.setTextureRect(sf::IntRect(Bry_Lime));
+
+            if(randtemp == 5)
+                Berry.setTextureRect(sf::IntRect(Bry_Spear));
+
+            if(randtemp == 6)
+                Berry.setTextureRect(sf::IntRect(Bry_Bell));
+
+            if(randtemp == 7)
+                Berry.setTextureRect(sf::IntRect(Bry_Key));
+
+
+            Berry.setScale(2.f, 2.f);
+            Berry.setPosition(522/2,620/2);
+
+
+        } else {
+
+            Berrytimer++;
+        }
+
+
+
+        /////////////////////////
 
         stringstream ss;
         ss<<score;
@@ -2085,6 +2139,8 @@ int main() {
         if(dotsEaten == 183) {
 
             dotsEaten = 0;
+
+            Berrytimer = 0;
 
             OrangeGhost.setPosition(sf::Vector2f(226, 266));
             RedGhost.setPosition(sf::Vector2f(246, 266));

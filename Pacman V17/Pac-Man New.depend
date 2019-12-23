@@ -40,7 +40,7 @@
 	<string>
 	<vector>
 
-1577060514 source:c:\users\1trea\desktop\c++ code\pac-man new\main.cpp
+1577082068 source:c:\users\1trea\desktop\c++ code\pac-man new\main.cpp
 	<SFML/Graphics.hpp>
 	<SFML/Window.hpp>
 	<SFML/Audio.hpp>
@@ -544,4 +544,12 @@
 1575248033 c:\program files (x86)\sfml-2.5.1-windows-gcc-5.1.0-tdm-32-bit\sfml-2.5.1\include\sfml\audio\soundfilewriter.hpp
 	<SFML/Audio/Export.hpp>
 	<string>
+
+1577081657 source:c:\users\1trea\desktop\c++ code\pac-man new\src\rect.cpp
+	"Rect.h"
+
+1577081742 c:\users\1trea\desktop\c++ code\pac-man new\include\rect.h
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
 
