@@ -12,12 +12,20 @@ Planned features:
 - Finish death screen
 - Pacman death animation
 - Ghosts don't instantly spawn bad at spawn
-- After ghost death make then back to kill mode
 - Add cherry
 - Add high score
 - move code to functions (maybe create classes)
 - Add music, and sound effects
 - Remove Herobrine
+
+
+V.16
+update notes:
+-
+- Kinda "Fixed" Fullscreen mode
+- continued work on end screen
+- After ghost death they go back to kill mode
+- Removed Herobrine
 
 <br>
 
