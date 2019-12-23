@@ -15,7 +15,16 @@ Planned features:
 
 <br>
 
-V.17
+V.19
+update notes:
+-
+- Ghosts flash before turning back into kill mode
+- More assets
+- Bug fixes
+
+<br>
+
+V.18
 update notes:
 -
 - Start screen
