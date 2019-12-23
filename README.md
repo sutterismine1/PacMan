@@ -1,9 +1,6 @@
 # PacMan
 
 <p>This is a really bad clone of pacman but eh... I'm trying</p>
-<br>
-
-<p>Index</p>
 
 <br>
 
