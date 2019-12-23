@@ -20,7 +20,7 @@ update notes:
 -
 - Start screen
 - Death screen
-- can restart
+- Can restart
 - God this is getting old but yes I did Remove Herobrine
 
 <br>
