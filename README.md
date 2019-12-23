@@ -2,7 +2,6 @@
 
 <p>This is a really bad clone of pacman but eh... I'm trying</p>
 
-
 <br>
 
 Planned features:
@@ -12,11 +11,18 @@ Planned features:
 - Finish death screen
 - Pacman death animation
 - Ghosts don't instantly spawn bad at spawn
-- Add cherry
 - Add high score
 - move code to functions (maybe create classes)
 - Add music, and sound effects
 - Remove Herobrine
+
+<br>
+
+V.17
+update notes:
+-
+- Add Framework for cherry
+- This joke is getting old but I still: Removed Herobrine
 
 <br>
 
