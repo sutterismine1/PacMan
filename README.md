@@ -20,6 +20,7 @@ update notes:
 -
 - Added Highscore
 - Added framework for Pacman death animation
+- Bug fixes
 
 <br>
 
