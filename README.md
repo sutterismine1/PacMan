@@ -7,12 +7,19 @@
 Planned features:
 -
 - Actually good A.I
-- Pacman death animation
+- Get Pink & Blue moving
 - Ghosts don't instantly spawn bad at spawn
-- Add high score
 - move code to functions (maybe create classes)
 - Add music, and sound effects
-- Get Pink & Blue moving
+- Finish Pacman death animation
+
+<br>
+
+V.20
+update notes:
+-
+- Added Highscore
+- Added framework for Pacman death animation
 
 <br>
 
