@@ -11,7 +11,15 @@ Planned features:
 - Ghosts don't instantly spawn bad at spawn
 - move code to functions (maybe create classes)
 - Add music, and sound effects
-- Finish Pacman death animation
+
+<br>
+
+V.20
+update notes:
+-
+- Pacman death animation
+- pause menu
+- Bug fixes
 
 <br>
 
