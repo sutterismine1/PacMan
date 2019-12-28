@@ -18,6 +18,7 @@ update notes:
 -
 - Ghosts turn to eyes when eaten
 - Bug fixes
+- Cleaned up some of the code
 
 <br>
 
