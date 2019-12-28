@@ -1,6 +1,6 @@
 # PacMan
 
-<p>This is a really bad clone of pacman but eh... I'm trying</p>
+<p>This is a really bad clone of pacman but I'm trying</p>
 
 <br>
 
@@ -8,9 +8,16 @@ Planned features:
 -
 - Actually good A.I
 - Get Pink & Blue moving
-- Ghosts don't instantly spawn bad at spawn
 - move code to functions (maybe create classes)
 - Add music, and sound effects
+
+<br>
+
+V.21
+update notes:
+-
+- Ghosts turn to eyes when eaten
+- Bug fixes
 
 <br>
 
