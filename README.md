@@ -19,6 +19,7 @@ update notes:
 - Ghosts turn to eyes when eaten
 - Bug fixes
 - Cleaned up some of the code
+- Added framework to get Blue and pink ghosts to move
 
 <br>
 
