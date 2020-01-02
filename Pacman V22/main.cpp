@@ -2739,7 +2739,7 @@ int main() {
             window.draw(BlueGhost);
         }
 
-
+        window.draw(PacDeath);
 
         if(Game_over == true)
             window.draw(Menu);
@@ -2751,10 +2751,6 @@ int main() {
         window.draw(PreStart);
         window.draw(GameDone);
 
-
-        //temp spot
-        window.draw(PacDeath);
-        //
 
 
         window.display();
