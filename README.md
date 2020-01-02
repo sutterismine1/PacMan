@@ -17,9 +17,10 @@ V.22
 update notes:
 -
 - Ghosts turn to eyes when eaten
-- Bug fixes
+- Made ghost sprites look better
 - Cleaned up some of the code
 - Added framework to get Blue and pink ghosts to move
+- Bug fixes
 
 <br>
 
