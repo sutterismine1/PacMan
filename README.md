@@ -13,7 +13,7 @@ Planned features:
 
 <br>
 
-V.21
+V.22
 update notes:
 -
 - Ghosts turn to eyes when eaten
@@ -23,7 +23,7 @@ update notes:
 
 <br>
 
-V.20
+V.21
 update notes:
 -
 - Pacman death animation
