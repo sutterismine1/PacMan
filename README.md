@@ -13,6 +13,17 @@ Planned features:
 
 <br>
 
+V.23
+update notes:
+-
+- Bug fixes
+- Added Audio Assets 
+- Made more functions
+- Moved Code to look nice
+- optimizations
+
+<br>
+
 V.22
 update notes:
 -
