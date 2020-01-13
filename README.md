@@ -7,9 +7,18 @@
 Planned features:
 -
 - Actually good A.I
-- Get Pink & Blue moving
 - move code to functions (maybe create classes)
 - Add music, and sound effects
+
+<br>
+
+V.24
+update notes:
+-
+- Pink & Blue ghost move
+- Made more functions
+- Bug fixes
+- optimizations
 
 <br>
 
