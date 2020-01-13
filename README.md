@@ -15,7 +15,7 @@ Planned features:
 V.24
 update notes:
 -
-- Pink & Blue ghost move
+- Pink & Blue ghosts move
 - Made more functions
 - Bug fixes
 - optimizations
