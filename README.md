@@ -15,6 +15,15 @@ Planned features:
 V.24
 update notes:
 -
+- Sound effects
+- Made more functions
+- Bug fixes
+- optimizations
+<br>
+
+V.24
+update notes:
+-
 - Pink & Blue ghosts move
 - Made more functions
 - Bug fixes
