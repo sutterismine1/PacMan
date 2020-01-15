@@ -8,7 +8,6 @@ Planned features:
 -
 - Actually good A.I
 - move code to functions (maybe create classes)
-- Add music, and sound effects
 
 <br>
 
