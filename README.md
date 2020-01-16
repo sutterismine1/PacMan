@@ -11,7 +11,7 @@ Planned features:
 
 <br>
 
-V.25
+V.26
 update notes:
 -
 - More Sound effects
