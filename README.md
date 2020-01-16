@@ -11,7 +11,15 @@ Planned features:
 
 <br>
 
-V.24
+V.25
+update notes:
+-
+- More Sound effects
+- Better Pause
+
+<br>
+
+V.25
 update notes:
 -
 - Sound effects
