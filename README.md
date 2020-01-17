@@ -11,6 +11,13 @@ Planned features:
 
 <br>
 
+V.27
+update notes:
+-
+- Improvments to dot placing 
+
+<br>
+
 V.26
 update notes:
 -
