@@ -15,6 +15,8 @@ V.27
 update notes:
 -
 - Improvments to dot placing 
+- Move Functions
+- Settings
 
 <br>
 
