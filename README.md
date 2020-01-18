@@ -16,7 +16,7 @@ update notes:
 -
 - Improvments to dot placing 
 - Move Functions
-- Settings
+- Started Settings
 
 <br>
 
