@@ -14,8 +14,17 @@ Planned features:
 V.27
 update notes:
 -
+- Setting Menu
+- Help Menu
+- More Functions
+
+<br>
+
+V.27
+update notes:
+-
 - Improvments to dot placing 
-- Move Functions
+- More Functions
 - Started Settings
 
 <br>
