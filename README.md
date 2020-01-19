@@ -14,7 +14,7 @@ Planned features:
 V.27
 update notes:
 -
-- Setting Menu
+- Audio Setting Menu
 - Help Menu
 - More Functions
 
