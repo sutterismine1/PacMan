@@ -1887,7 +1887,7 @@ int main() {
     int Track = 1;
 
 
-    string Help_Text = "\t\t\t\t\t\t\t\t HELP \n \n \nMove is Arrow keys \nIf you eat all the dots on the board more will spawn. \nIf a ghost hits you and is not Blue, YOU. WILL. DIE! \nTo make a ghost blue you must eat a power pellet,\nThere are 4 accros the map\nYou Have 3 lives\nIf you beat the High score You get a free life.\n\n\t\tBy. Nicholas Parise";
+    string Help_Text = "\t\t\t\t\t\t\t\t HELP \n \n \nMove is Arrow keys \nIf you eat all the dots on the board more will spawn. \nIf a ghost hits you and is not Blue, YOU. WILL. DIE! \nTo make a ghost blue you must eat a power pellet,\nthere are 4 accros the map.\nYou Have 3 lives,\nif you beat the High score You get a free life.\n\n\t\tBy. Nicholas Parise";
 
     string Settings_Text = "Master Audio: \n\n\n Music: \n\n\n Sound Effects: \n\n\n\n Music Track:";
 
@@ -2723,12 +2723,20 @@ int main() {
 
                 Track1.setTexture(texture26);
 
+                 if(Sound_Ef == true) {
+                    Button_select.play();
+                }
+
                 if(event.type == sf::Event::MouseButtonReleased &&  event.mouseButton.button == sf::Mouse::Left) {
 
                     Track = 1;
 
                     Track2.setTexture(texture27);
                     Track3.setTexture(texture29);
+                     if(Sound_Ef == true) {
+                        Button_click.play();
+                    }
+
                 }
 
             } else {
@@ -2745,12 +2753,19 @@ int main() {
 
                 Track2.setTexture(texture28);
 
+                 if(Sound_Ef == true) {
+                    Button_select.play();
+                }
+
                 if(event.type == sf::Event::MouseButtonReleased &&  event.mouseButton.button == sf::Mouse::Left) {
 
                     Track = 2;
 
                     Track1.setTexture(texture25);
                     Track3.setTexture(texture29);
+                 if(Sound_Ef == true) {
+                        Button_click.play();
+                    }
                 }
 
             } else {
@@ -2767,12 +2782,19 @@ int main() {
 
                 Track3.setTexture(texture30);
 
+                 if(Sound_Ef == true) {
+                    Button_select.play();
+                }
+
                 if(event.type == sf::Event::MouseButtonReleased &&  event.mouseButton.button == sf::Mouse::Left) {
 
                     Track = 3;
 
                     Track1.setTexture(texture25);
                     Track2.setTexture(texture27);
+               if(Sound_Ef == true) {
+                        Button_click.play();
+                    }
                 }
 
             } else {
