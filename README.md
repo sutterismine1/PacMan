@@ -7,7 +7,15 @@
 Planned features:
 -
 - Actually good A.I
-- move code to functions (maybe create classes)
+- move code to functions
+
+<br>
+
+V.30
+update notes:
+-
+- More functions
+- Started to comment
 
 <br>
 
