@@ -11,7 +11,16 @@ Planned features:
 
 <br>
 
-V.27
+V.28
+update notes:
+-
+- Multiple Music tracks
+- Cleaned up assets
+- More Settings
+
+<br>
+
+V.28
 update notes:
 -
 - Audio Setting Menu
