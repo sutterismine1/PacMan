@@ -7,7 +7,14 @@
 Planned features:
 -
 - Actually good A.I
-- move code to functions
+
+<br>
+
+V.31
+update notes:
+-
+- More functions
+- More sounds
 
 <br>
 
