@@ -10,6 +10,13 @@ Planned features:
 
 <br>
 
+V.32
+update notes:
+-
+- Literally no reason just wanna add to this project one last time
+
+<br>
+
 V.31
 update notes:
 -
