@@ -10,6 +10,14 @@ Planned features:
 
 <br>
 
+V.33
+update notes:
+-
+- Added Icons
+- removed obsolete functions
+
+<br>
+
 V.32
 update notes:
 -
