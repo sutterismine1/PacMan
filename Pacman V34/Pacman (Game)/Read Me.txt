@@ -1,0 +1,3 @@
+put the .exe from the bin/release here
+
+also copy ther assets folder here aswell
