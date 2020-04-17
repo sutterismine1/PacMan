@@ -14,6 +14,7 @@ V.34
 update notes:
 -
 - Laid ground work for and created possible algorithm to make good A.I
+- removed obsolete functions
 
 <br>
 
