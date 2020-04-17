@@ -13,8 +13,10 @@ Planned features:
 V.34
 update notes:
 -
+- Removed obsolete functions
+- Render optimizations
 - Laid ground work for and created possible algorithm to make good A.I
-- removed obsolete functions
+- Ground work for full screen
 
 <br>
 
